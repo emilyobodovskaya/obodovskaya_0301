@@ -1,11 +1,8 @@
 public class Main {
     public static void main(String[] args) {
+     Android android = new Android();
+     Iphone iphone = new Iphone();
 
-        MusicStyles [] groups = { new PopMusic(),new RockMusic(),  new  ClassicMusic ()  };
-        for (MusicStyles musicStyles : groups) {
-
-            musicStyles.playMusic();
-        }
 
     }
 }
